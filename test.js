@@ -1,11 +1,26 @@
-let arr = 4;
-// arr.foo = "hello";
-// arr.smth = "smth"
-console.log(typeof(arr))
-for (let i in arr) {
-   console.log(i); // logs "0", "1", "2", "foo"
+// var a = eval("console.log(10 - 5 + 4*4)") // wtf))
+// // console.log(a)
+// a = 10/1
+// if (a == Infinity) {
+//     console.log('Division by 0!!!')
+// } else
+//     console.log(a)
+//     console.log(a + " repeat") //wtf again))
+
+// function testFunc(a, b, c) {
+    //     console.log(a + " " + b + ' ' + c)
+    //     console.log(c.c)
+    //     return false;
+    // }
+    
+    
+var user = prompt("Please enter your name")
+if (user === null) {
+    alert("LOX")
+} else { 
+    if (confirm("Do you really want to give us your name??"))
+        alert("Заебок")
+    else 
+        alert("Molodec")
 }
-console.log("\n")
-for (let i of arr) {
-   console.log(i); // logs "3", "5", "7"
-}
+    
